@@ -11,26 +11,26 @@ var1=1
 var2=2
 var3=-3
 
-print('var1:' var1)
-print('var2:' var2)
-print('var3:' var3)
-print('var1 type:'type(var1))
-print('var2 type:'type(var2))
-print('var3 type:'type(var3))
+print('var1:', var1)
+print('var2:', var2)
+print('var3:', var3)
+print('var1 type:',type(var1))
+print('var2 type:',type(var2))
+print('var3 type:',type(var3))
 
 #실수형
 
 var4=0.4
 var5=5.12
-print('var4:' var4)
-print('var5:' var5)
-print('var4 type:' type(var4))
-print('var5 type:' type(var5))
+print('var4:', var4)
+print('var5:', var5)
+print('var4 type:', type(var4))
+print('var5 type:', type(var5))
 
 #논리형
 
-var6= true
-var7= false
+var6= True
+var7= False
 
 print('var6:', var6)
 print('var7:', var7)

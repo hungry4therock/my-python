@@ -32,15 +32,15 @@ print('msg 6~마지막까지 문자열:', msg[6:])
 
 #문자열 분리
 people='김유신|김춘추|장보고|강감찬|이순신'
-p1,p2,p3,p4,p5= people,split('|')
-print('p1:'p1)
-print('p2:'p2)
-print('p3:'p3)
-print('p4:'p4)
-print('p5:'p5)
+p1, p2, p3, p4, p5= people.split('|')
+print('p1:', p1)
+print('p2:', p2)
+print('p3:', p3)
+print('p4:', p4)
+print('p5:', p5)
 
 #문자열 이스케이프
 print('서울/t대전/t대구/t부산/t광주')
 print('서울/n대전/n대구/n부산/n광주')
-print('저는 /'홍길동'/입니다')
+print('저는 \'홍길동\' 입니다')
 print("저는 /'홍길동'/입니다")
